@@ -18,13 +18,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/textView"
-        android:layout_above="@id/androidx.appcompat.widget.AppCompatButtonEquals"
+        android:layout_above="@id/AppCompatButtonEquals"
         android:layout_marginTop="16dp"
         android:columnCount="4"
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton1"
+            android:id="@+id/AppCompatButton1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/number_bg"
@@ -37,7 +37,7 @@
             android:text="1" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton2"
+            android:id="@+id/AppCompatButton2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/number_bg"
@@ -50,7 +50,7 @@
             android:text="2" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton3"
+            android:id="@+id/AppCompatButton3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/number_bg"
@@ -63,7 +63,7 @@
             android:text="3" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButtonPlus"
+            android:id="@+id/AppCompatButtonPlus"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/number_bg"
@@ -76,7 +76,7 @@
             android:text="+" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton4"
+            android:id="@+id/AppCompatButton4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@drawable/number_bg"
@@ -89,7 +89,7 @@
             android:text="4" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton5"
+            android:id="@+id/AppCompatButton5"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="4dp"
@@ -102,7 +102,7 @@
             android:text="5" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton6"
+            android:id="@+id/AppCompatButton6"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="4dp"
@@ -115,7 +115,7 @@
             android:text="6" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButtonMinus"
+            android:id="@+id/AppCompatButtonMinus"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="4dp"
@@ -128,7 +128,7 @@
             android:text="-" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton7"
+            android:id="@+id/AppCompatButton7"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="4dp"
@@ -141,7 +141,7 @@
             android:text="7" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton8"
+            android:id="@+id/AppCompatButton8"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="4dp"
@@ -154,7 +154,7 @@
             android:text="8" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton9"
+            android:id="@+id/AppCompatButton9"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="4dp"
@@ -167,7 +167,7 @@
             android:text="9" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButtonMultiply"
+            android:id="@+id/AppCompatButtonMultiply"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="4dp"
@@ -180,7 +180,7 @@
             android:text="x" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButtonClear"
+            android:id="@+id/AppCompatButtonClear"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="4dp"
@@ -195,7 +195,7 @@
             />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButton0"
+            android:id="@+id/AppCompatButton0"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_marginStart="4dp"
@@ -206,7 +206,7 @@
             android:text="0" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/androidx.appcompat.widget.AppCompatButtonDivide"
+            android:id="@+id/AppCompatButtonDivide"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_marginStart="4dp"
@@ -219,7 +219,7 @@
     </GridLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/androidx.appcompat.widget.AppCompatButtonEquals"
+        android:id="@+id/AppCompatButtonEquals"
         android:layout_marginHorizontal="8dp"
         android:layout_width="match_parent"
         android:layout_height="120dp"
