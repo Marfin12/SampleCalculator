@@ -190,7 +190,7 @@
             android:layout_rowWeight=".8"
             android:textSize="36sp"
             android:background="@color/material_dynamic_neutral50"
-            android:text="C"
+            android:text="CLEAR"
             android:textColor="@color/white"
             />
 

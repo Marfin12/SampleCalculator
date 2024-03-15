@@ -11,7 +11,7 @@ class Calculator {
         }
     }
 
-    fun calculate(arithmeticButton: String) {
+    fun process(buttonText: String, displayTextOutput: ((String) -> Unit)) {
 
     }
 }

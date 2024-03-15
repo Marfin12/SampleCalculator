@@ -23,27 +23,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun mapButton(button: AppCompatButton) {
-        when {
-            button.id == R.id.buttonClear -> {
-                binding.textView.text = ""
-            }
-
-            isArithmeticButton(button.id) -> {
-                processCalculate(button.text.toString())
-            }
-
-            else -> {
-                displayNumber(button.text.toString())
-            }
-        }
-    }
-
-    private fun processCalculate(arith: String) {
-        Calculator.getInstance().calculate(arith)
-    }
-
-    @SuppressLint("SetTextI18n")
-    private fun displayNumber(number: String) {
-        binding.textView.text = "${binding.textView.text}$number"
+        Calculator.getInstance().process(
+            button.text.toString(),
+        ) { result -> binding.textView.text = result }
     }
 }
